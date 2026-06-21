@@ -62,7 +62,7 @@ public class StudentInfo {
         }
 
         else
-        {System.out.println("ACADAMIC CLASS: PASS");
+        {System.out.println("ACADEMIC CLASS: PASS");
         }
 
         System.out.println("====================");
