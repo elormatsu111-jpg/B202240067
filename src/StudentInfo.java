@@ -41,7 +41,7 @@ public class StudentInfo {
 
         //Adult Status
 
-        if (age >18) {
+        if (age >=18) {
             System.out.println("ADULT STATUS: YES");}
         else  {
             System.out.println("ADULT STATUS: NO");
@@ -54,14 +54,14 @@ public class StudentInfo {
         }
 
         else if (gpa>=3.0 && gpa<=3.49)
-        {System.out.println("ACADAMIC CLASS: SECOND CLASS");
+        {System.out.println("ACADAMIC CLASS: SECOND CLASS UPPER");
         }
 
         else if (gpa>=2.5 && gpa<=2.99)
-        {System.out.println("ACADAMIC CLASS: THIRD CLASS");
+        {System.out.println("ACADAMIC CLASS: SECOND CLASS LOWER");
         }
 
-        else if (gpa>=2.5)
+        else
         {System.out.println("ACADAMIC CLASS: PASS");
         }
 
