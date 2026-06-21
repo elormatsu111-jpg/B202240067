@@ -50,15 +50,15 @@ public class StudentInfo {
         //GPA LEVEL
         if (gpa>=3.5 && gpa<=4.0)
         {
-            System.out.println("ACADAMIC CLASS: FIRST CLASS");
+            System.out.println("ACADEMIC CLASS: FIRST CLASS");
         }
 
         else if (gpa>=3.0 && gpa<=3.49)
-        {System.out.println("ACADAMIC CLASS: SECOND CLASS UPPER");
+        {System.out.println("ACADEMIC CLASS: SECOND CLASS UPPER");
         }
 
         else if (gpa>=2.5 && gpa<=2.99)
-        {System.out.println("ACADAMIC CLASS: SECOND CLASS LOWER");
+        {System.out.println("ACADEMIC CLASS: SECOND CLASS LOWER");
         }
 
         else
